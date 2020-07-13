@@ -1,3 +1,6 @@
+/* -----------------------------------------------------*/
+/*BASIC SETUP*/
+/*------------------------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -13,10 +16,67 @@ html {
     text-rendering: optimizeLegibility; 
 }
 
+
+/* -----------------------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*------------------------------------------------------*/
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* -----------------------------------------------------*/
+/*headings*/
+/*------------------------------------------------------*/
+
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* -----------------------------------------------------*/
+/*BUTTONS*/
+/*------------------------------------------------------*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 500px;
+    color: #fff;
+    transition: background-color 0.2s;
+
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #2980b9;
+    margin-top: 10px
+    
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #174666;
+}
+
+/* -----------------------------------------------------*/
+/*HEADER*/
+/*------------------------------------------------------*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -35,46 +95,4 @@ header {
     -ms-transform: translate(-50%, -50%);
 */
     transform: translate(-50%, -50%);
-}
-
-h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #fff;
-    font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-h2 {
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-
-
-
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 10px 20px;
-    font-weight: 400;
-    text-decoration: none;
-    border-radius: 500px;
-    color: #fff;
-    transition: background-color 0.2s;
-/*    color: #000000;*/
-}
-
-.btn-full:link,
-.btn-full:visited {
-    background-color: #2980b9;
-/*    background-color: #BDC581;*/
-    margin-top: 10px
-    
-}
-
-.btn:hover,
-.btn:active {
-    background-color: #174666;
 }
