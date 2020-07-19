@@ -25,26 +25,78 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+section {
+    padding: 80px 0;
+    height: 100vh;
+
+}
 
 /* -----------------------------------------------------*/
 /*headings*/
 /*------------------------------------------------------*/
 
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #fff;
-    font-size: 240%;
-    word-spacing: 4px;
+h1,
+h3 {
     letter-spacing: 1px;
-    text-transform: uppercase;
     font-weight: 300;
 }
-h2 {
+
+h2,
+h4 {
     font-weight: 400;
     letter-spacing: 1px;
 }
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0; 
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;  
+    text-transform: uppercase;
+}
+
+h2 {
+    
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #2980b9;
+    content: " ";
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+h3 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    padding-bottom: 40px
+}
+
+h4 {
+    font-size: 130%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* -----------------------------------------------------*/
+/*paragrapghs*/
+/*------------------------------------------------------*/
+.about_me {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 100%;
+    
+    
+}
+
 
 /* -----------------------------------------------------*/
 /*BUTTONS*/
@@ -136,4 +188,13 @@ header {
     border-bottom: 2px solid #2980b9;
 }
 
-
+/* -----------------------------------------------------*/
+/*video*/
+/*------------------------------------------------------*/
+.video {
+    height: 400px;
+    width: auto;
+    margin: 80px 100px;
+    position: absolute;
+    left: 28%;
+}
