@@ -208,9 +208,10 @@ header {
 /*video*/
 /*------------------------------------------------------*/
 .video {
+    display: block;
     height: 400px;
     width: auto;
-    margin: 100px;
-    position: absolute;
+    margin: 100px auto;
+/*    position: absolute;*/
     left: 31%;
 }
