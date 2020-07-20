@@ -223,7 +223,12 @@ header {
 
 .port-afb {
     display: block;
-    height: 400px;
+    height: 300px;
     width: auto;
     margin: 10px auto;
+}
+
+.in-progress1 {
+    display: block;
+    margin: auto;
 }
