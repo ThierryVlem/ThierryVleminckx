@@ -44,7 +44,7 @@ section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/marmer-achtergrond.jpg,hash=cc37b2d3854b4c21b1cd2e2497d40cf7);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
 }
 
 /* -----------------------------------------------------*/
@@ -158,6 +158,7 @@ header {
     background-size: cover;
     background-position: top;
     height: 100vh;
+    background-attachment: fixed;
 
 }
 
@@ -282,11 +283,7 @@ header {
 /*My skills*/
 /*------------------------------------------------------*/
 
-/*
-.section-skills {
-    background-color: #fff
-}
-*/
+
 .skill-block {
     display: block;
     margin:100px auto;
@@ -351,11 +348,25 @@ progress[value]::-webkit-progress-value {
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
     background-position: top;
-    height: 100vh;
+    
 }
 .contact-form {
     display: block;
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+input,
+textarea {
+    width: 70%;
+    padding: 7px;
+    border-radius: 3px;
+    border-color: transparent;
+    background: #313131; 
+}
+input[type=email] {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 
