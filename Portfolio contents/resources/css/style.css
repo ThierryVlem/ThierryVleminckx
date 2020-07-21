@@ -105,6 +105,9 @@ h4 {
     padding-bottom: 20px;
     color: #292929;
 }
+h5 {
+    
+}
 
 /* -----------------------------------------------------*/
 /*paragrapghs*/
@@ -279,7 +282,11 @@ header {
 /*My skills*/
 /*------------------------------------------------------*/
 
-
+/*
+.section-skills {
+    background-color: #fff
+}
+*/
 .skill-block {
     display: block;
     margin:100px auto;
@@ -288,19 +295,22 @@ header {
 .skill-step {
     display: block;
     text-align: center;
-    height: 100px;
+    height: 80px;
     width: 60%;
     margin: auto;
     
 }
 
 .skill-step div {
+    border: 2px solid #2980b9;
+    border-radius: 25%;
     float: left;
     display: inline-block;
     height: auto;
     width: 100px;
     padding: 10px 0;
-    color: #292929
+    color: #fff;
+    background-color: #2980b9;
     
 }
 .skill-bar {
@@ -309,6 +319,7 @@ header {
     margin-top: 14px;
     margin-left: 30px;
     -webkit-appearance: none;
+    vertical-align: middle;
     
 }
 
@@ -331,4 +342,23 @@ progress[value]::-webkit-progress-value {
     border-radius: 2px; 
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
+
+
+/* -----------------------------------------------------*/
+/*Contact*/
+/*------------------------------------------------------*/
+.contact {
+    background: url(img/achtergrond%20contact.png);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+}
+.contact-form {
+    display: block;
+    text-align: center;
+}
+
+
+
+
 
