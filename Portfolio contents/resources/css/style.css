@@ -15,7 +15,7 @@
 
 html {
     background-color: #fff;
-    color: #000000;
+    color: #292929;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -94,7 +94,7 @@ h3 {
     word-spacing: 2px;
     text-align: center;
     padding-bottom: 40px;
-    color: #000000;
+    color: #292929;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -103,7 +103,7 @@ h4 {
     font-size: 130%;
     text-align: center;
     padding-bottom: 20px;
-    color: #000000;
+    color: #292929;
 }
 
 /* -----------------------------------------------------*/
@@ -300,6 +300,7 @@ header {
     height: auto;
     width: 100px;
     padding: 10px 0;
+    color: #292929
     
 }
 .skill-bar {
