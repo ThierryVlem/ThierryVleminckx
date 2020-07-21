@@ -1,3 +1,9 @@
+/* ----------alligning text and icons------------------*/
+/*line-height : 120%;*/
+/*vertical-align:middle;*/
+/**/
+/*margin-top: -2px;*/
+/**/
 /* -----------------------------------------------------*/
 /*BASIC SETUP*/
 /*------------------------------------------------------*/
@@ -27,7 +33,7 @@ html {
 }
 section {
     padding: 40px 0;
-    height: 100vh;
+/*    height: 100vh;*/
 
 }
 /* -----------------------------------------------------*/
@@ -108,9 +114,7 @@ h4 {
     width: 70%;
     margin-left: 15%;
     font-size: 110%;
-    
-    
-    
+    text-align: left;
 }
 
 
@@ -151,6 +155,7 @@ header {
     background-size: cover;
     background-position: top;
     height: 100vh;
+
 }
 
 .hero-text-box {
@@ -208,13 +213,15 @@ header {
 /* -----------------------------------------------------*/
 /*video*/
 /*------------------------------------------------------*/
+
+.section-aboutme{
+    text-align: center;
+}
 .video {
-    display: block;
     height: 400px;
     width: auto;
-    margin: 100px auto;
-/*    position: absolute;*/
-    left: 31%;
+    margin-top: 50px;
+    text-align: center;
 }
 
 /* -----------------------------------------------------*/
@@ -263,7 +270,9 @@ header {
 .section-projects {
     display: block;
     text-align: center; 
-    background-color: #bebebe
+    background-color: #bebebe;
+    height: 100vh;
+    
 }
 
 /* -----------------------------------------------------*/
@@ -273,7 +282,7 @@ header {
 
 .skill-block {
     display: block;
-    margin:200px auto;
+    margin:100px auto;
 }
 
 .skill-step {
