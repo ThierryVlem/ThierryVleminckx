@@ -264,3 +264,40 @@ header {
     display: block;
     text-align: center; 
 }
+
+/* -----------------------------------------------------*/
+/*My skills*/
+/*------------------------------------------------------*/
+
+
+.skill-block {
+    display: block;
+    margin:200px auto;
+}
+
+.skill-step {
+    display: block;
+    text-align: center;
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    
+}
+
+.skill-step div {
+    float: left;
+    display: inline-block;
+    border: 2px solid #2980b9;
+    border-radius: 50%;
+    height: auto;
+    width: 100px;
+    padding: 10px 0;
+    
+}
+.skill-bar {
+    float: right;
+    width: 70%;
+    margin-top: 14px;
+    margin-left: 30px;
+    color: #2980b9;
+}
