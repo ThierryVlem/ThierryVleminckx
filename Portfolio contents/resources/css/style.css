@@ -41,7 +41,7 @@ section {
 /*------------------------------------------------------*/
 
 .background-all {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/marmer-achtergrond.jpg,hash=cc37b2d3854b4c21b1cd2e2497d40cf7);
+    background-color: #f2f2f2;
     background-size: cover;
     background-position: center;
 /*    background-attachment: fixed;*/
@@ -58,8 +58,7 @@ h3 {
     
 }
 
-h2,
-h4 {
+h2 {
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -83,7 +82,7 @@ h3:after {
     height: 2px;
     background-color: #2980b9;
     content: " ";
-    width: 300px;
+    width: 100px;
     margin: 0 auto;
     margin-top: 10px;
     
@@ -95,7 +94,6 @@ h3 {
     text-align: center;
     padding-bottom: 40px;
     color: #292929;
-    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -104,9 +102,14 @@ h4 {
     text-align: center;
     padding-bottom: 20px;
     color: #292929;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
+
 h5 {
-    
+    font-size: 120%;
+    color: #f2f2f2;
+    margin-bottom: 20px
 }
 
 /* -----------------------------------------------------*/
@@ -274,7 +277,7 @@ header {
 .section-projects {
     display: block;
     text-align: center; 
-    background-color: #bebebe;
+    background-color: #e5e5e5;
     height: 100vh;
     
 }
@@ -300,7 +303,7 @@ header {
 
 .skill-step div {
     border: 2px solid #2980b9;
-    border-radius: 25%;
+    border-radius: 15%;
     float: left;
     display: inline-block;
     height: auto;
@@ -348,28 +351,49 @@ progress[value]::-webkit-progress-value {
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
     background-position: top;
+    height: 80vh;
     
 }
 .contact-form {
     display: block;
     text-align: center;
     width: 60%;
-    margin: 0 auto;
+    margin: 120px auto;
 }
 input,
 textarea {
-    width: 70%;
+    display: inline-block;
+    width: 100%;
     padding: 7px;
     border-radius: 3px;
     border-color: transparent;
-    background: #313131; 
-}
-input[type=email] {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    background: #404040; 
+    margin: 5px auto;
+    color: #2980b9;
 }
 
+textarea {
+    height: 200px;
+}
 
+::placeholder {
+    color: #f2f2f2;
+}
 
+#popUpyes {
+    display: block;
+    color: #f2f2f2;
+    font-weight: 600;
+    width: 30%;
+    float: right;
+    border: 2px solid #2980b9;
+    transition: background-color 0.3s;
+}
+#popUpyes:hover,
+#popUpyes:active {
+    background-color: #2980b9;
+}
+
+*:focus{outline: none;}
 
 
