@@ -396,4 +396,41 @@ textarea {
 
 *:focus{outline: none;}
 
+/* -----------------------------------------------------*/
+/*footer*/
+/*------------------------------------------------------*/
+
+footer{
+    background-color: #222222;
+    color: #f2f2f2;
+}
+
+.nav-footer {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+.nav-footer li,
+.social-links li,
+.home-button{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-footer li:last-child,
+.social-links li:last-child {
+    margin: 0;
+}
+
+
+
+
+
+
 
