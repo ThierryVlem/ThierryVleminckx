@@ -118,9 +118,9 @@ h5 {
 .about_me {
     line-height: 145%;
     width: 70%;
-    margin-left: 15%;
+    margin: auto;
     font-size: 110%;
-    text-align: left;
+    text-align: center;
 }
 
 
