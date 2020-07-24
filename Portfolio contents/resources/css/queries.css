@@ -3,6 +3,7 @@
 
     .main-nav {
         margin-right: auto;
+        padding: 0 2%;
     }
     
     .hero-text-box{
@@ -11,6 +12,7 @@
     }
     .logo{
         margin-left: auto;
+        padding: 0 2%;
     }
     
 }
@@ -21,7 +23,25 @@
 
 /*Small tablet to big tablet: from 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
-    
+    .in-progress1,
+    .in-progress2,
+    .in-progress3,
+    .in-progress4 {
+        width: 100%;
+    }
+    .contact h3{
+        margin-top: -20px;
+    }
+    .nav-footer,
+    .social-links {
+        padding: 0 2%;
+    }
+    .last-line {
+        width: 32%;
+    }
+    .section-projects{
+        padding: 0 2%
+    }
 }
 
 
