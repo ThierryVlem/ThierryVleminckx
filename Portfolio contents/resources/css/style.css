@@ -419,15 +419,67 @@ footer{
 
 .nav-footer li,
 .social-links li,
-.home-button{
+.home-button {
     display: inline-block;
     margin-right: 20px;
+    text-decoration: none;
+    color: #f2f2f2;  
+}
+.nav-footer li a,
+.home-button {
+    color: #f2f2f2;
+    text-decoration: none;
 }
 .nav-footer li:last-child,
 .social-links li:last-child {
     margin: 0;
+    
 }
 
+.last-line {
+    display: block;
+    text-align: center;
+    width: 28%;
+    margin: 100px auto;
+    margin-bottom: 20px;
+    color: #6a6a6a
+}
+.mailadress {
+    display: block;
+    color: #2980b9;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.mail-icon-bottem {
+    color: #2980b9;
+    float: left;
+    font-size: 120%
+}
+
+.linkedin-button:link,
+.linkedin-button:visited,
+.instagram-button:link,
+.instagram-button:visited,
+.github-button:link,
+.github-button:visited {
+    color: #f2f2f2;
+}
+
+.linkedin-button:hover, 
+.linkedin-button:active {
+    color: #0072b1;
+}
+
+.instagram-button:hover,
+.instagram-button:active {
+    color: #5851DB;
+}
+
+.github-button:hover,
+.github-button:active {
+    color: #c9510c;
+}
 
 
 
