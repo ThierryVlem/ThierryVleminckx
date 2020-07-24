@@ -430,7 +430,8 @@ footer{
     color: #f2f2f2;
     text-decoration: none;
 }
-.nav-footer li:last-child,
+
+.nav-footer li:first-child,
 .social-links li:last-child {
     margin: 0;
     
@@ -464,6 +465,21 @@ footer{
 .github-button:link,
 .github-button:visited {
     color: #f2f2f2;
+}
+
+
+.nav-footer li a:link,
+.nav-footer li a:visited,
+.home-button:link,
+.home-button:visited {
+    color: #f2f2f2;
+}
+
+.nav-footer li a:hover,
+.nav-footer li a:active,
+.home-button:hover,
+.home-button:active {
+    color: #2980b9;
 }
 
 .linkedin-button:hover, 
