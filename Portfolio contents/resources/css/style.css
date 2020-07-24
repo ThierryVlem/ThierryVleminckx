@@ -33,7 +33,7 @@ html {
     margin: 0 auto;
 }
 section {
-    padding: 40px 0;
+    padding: 90px 0;
 /*    height: 100vh;*/
 
 }
@@ -194,6 +194,7 @@ header {
     margin-top: 5px;
 }
 
+
 /* -----------------------------------------------------*/
 /*NAVIGATION BAR*/
 /*------------------------------------------------------*/
@@ -229,6 +230,7 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #2980b9;
 }
+.about-nav-button{display:none;}
 
 /* sticky navi*/
 .sticky {
@@ -254,6 +256,7 @@ header {
 }
 .sticky .logo {display: none;}
 .sticky .logo-black {display: block;}
+.sticky .about-nav-button {display: block;}
 /* -----------------------------------------------------*/
 /*video*/
 /*------------------------------------------------------*/
