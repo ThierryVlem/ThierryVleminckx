@@ -115,7 +115,7 @@
     }
     .contact {
         padding: 90px 0;
-        height: auto;
+/*        height: auto;*/
         
     }
 
@@ -136,8 +136,29 @@
     #popUpyes{
         width: 100px;
     }
-    
-    
-    
+    .section-skills{
+        height: 80vh;
+        
+    }
+    .contact-form {
+        width: 80%;
+        margin: auto;
+        margin-top: 120px;
+    }
+    footer{
+        font-size: 85%;
+            
+    }
+    .nav-footer li,
+    .social-links li,
+    .home-button {
+        margin-right: 15px;
+    }
+    .home-button {
+        padding-left: 5px;
+    }
+    .github-button{
+        padding-right: 5px;
+    }
 
 }
