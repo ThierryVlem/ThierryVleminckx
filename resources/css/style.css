@@ -203,10 +203,8 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 40px;
-/*    margin-right: -200px;*/
-    margin-right: auto;
-    
+    margin-top: 40px ;
+    margin-right: auto;    
     
 }
 
@@ -214,6 +212,7 @@ header {
     display: inline-block;
     margin-left: 40px;
 }
+
 
 .main-nav li a:link,
 .main-nav li a:visited {
@@ -393,17 +392,21 @@ progress[value]::-webkit-progress-value {
 /*Contact*/
 /*------------------------------------------------------*/
 .contact {
+    display: block;
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
     background-position: top;
-    height: 80vh;
+    height: 100vh;
     
+}
+.contact h3{
+    padding-top: 20px
 }
 .contact-form {
     display: block;
     text-align: center;
     width: 60%;
-    margin: 120px auto;
+    margin: 260px auto;
 }
 input,
 textarea {
@@ -442,6 +445,7 @@ textarea {
     border: 2px solid #2980b9;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
+    
 }
 #popUpyes:hover,
 #popUpyes:active {
