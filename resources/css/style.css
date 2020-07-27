@@ -392,11 +392,15 @@ progress[value]::-webkit-progress-value {
 /*Contact*/
 /*------------------------------------------------------*/
 .contact {
+    display: block;
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
     background-position: top;
     height: 100vh;
     
+}
+.contact h3{
+    padding-top: 20px
 }
 .contact-form {
     display: block;
@@ -441,6 +445,7 @@ textarea {
     border: 2px solid #2980b9;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
+    
 }
 #popUpyes:hover,
 #popUpyes:active {

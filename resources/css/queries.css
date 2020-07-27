@@ -80,4 +80,64 @@
     .last-line {
         width: 65%;
     }
+    
+    .sticky,
+    .main-nav{
+        font-size: 90%;
+    }
+    .main-nav li {
+        margin-left: 10px;
+    }
+    .logo-black,
+    .logo{
+        height: 60px;
+    }
+    .sticky .main-nav {
+        margin-top: 25px;
+    }
+    .sticky {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .section-projects {
+        padding: 90px 0;
+        height: auto;
+    }
+    
+    .port-afb {
+        padding: 0 5%;
+    }
+    .section-skills{
+        padding: 90px 0;
+        height: auto;
+
+    }
+    .contact {
+        padding: 90px 0;
+        height: auto;
+        
+    }
+
+    .skill-step {
+        height: 80px;
+        width: 90%; 
+    }
+    .skill-step div {
+        height: auto;
+        width: 90px;
+        padding: 10px 0;
+        
+    }
+    .skill-bar {
+        width: 70%;
+        margin-left: 0;
+    }
+    #popUpyes{
+        width: 100px;
+    }
+    
+    
+    
+
 }
