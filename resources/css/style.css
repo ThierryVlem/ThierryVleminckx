@@ -238,6 +238,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(242, 242, 242, 0.9); 
+    -webkit-box-shadow: 0 2px 2px; 
     box-shadow: 0 2px 2px;
     
 }
