@@ -396,14 +396,14 @@ progress[value]::-webkit-progress-value {
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
     background-position: top;
-    height: 80vh;
+    height: 100vh;
     
 }
 .contact-form {
     display: block;
     text-align: center;
     width: 60%;
-    margin: 120px auto;
+    margin: 260px auto;
 }
 input,
 textarea {
