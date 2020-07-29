@@ -20,7 +20,7 @@ html {
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    text-rendering: optimizeLegibility; 
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -32,11 +32,13 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 section {
     /* padding: 90px 0; */
-/*    height: 100vh;*/
+    /*    height: 100vh;*/
 
 }
+
 /* -----------------------------------------------------*/
 /*background site*/
 /*------------------------------------------------------*/
@@ -45,7 +47,7 @@ section {
     background-color: #f2f2f2;
     background-size: cover;
     background-position: center;
-/*    background-attachment: fixed;*/
+    /*    background-attachment: fixed;*/
 }
 
 /* -----------------------------------------------------*/
@@ -56,7 +58,7 @@ section {
 h1,
 h3 {
     letter-spacing: 1px;
-    
+
 }
 
 h2 {
@@ -66,10 +68,10 @@ h2 {
 
 h1 {
     margin-top: 0;
-    margin-bottom: 0; 
+    margin-bottom: 0;
     color: #fff;
     font-size: 240%;
-    word-spacing: 4px;  
+    word-spacing: 4px;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -86,7 +88,7 @@ h3:after {
     width: 100px;
     margin: 0 auto;
     margin-top: 10px;
-    
+
 }
 
 h3 {
@@ -147,7 +149,6 @@ h5 {
 .btn-full:visited {
     background-color: #2980b9;
     margin-top: 10px
-    
 }
 
 .btn:hover,
@@ -180,15 +181,16 @@ header {
 }
 
 .logo,
-.logo-black{
+.logo-black {
     height: 80px;
     width: auto;
     float: left;
     margin-top: 20px;
     margin-left: auto;
-    
+
 }
-.logo-black{
+
+.logo-black {
     height: 70px;
     display: none;
     margin-bottom: 5px;
@@ -204,9 +206,9 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 40px ;
-    margin-right: auto;    
-    
+    margin-top: 40px;
+    margin-right: auto;
+
 }
 
 .main-nav li {
@@ -226,11 +228,15 @@ header {
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
 }
+
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #2980b9;
 }
-.about-nav-button{display:none;}
+
+.about-nav-button {
+    display: none;
+}
 
 /* sticky navi*/
 .sticky {
@@ -238,10 +244,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(242, 242, 242, 0.9); 
-    -webkit-box-shadow: 0 2px 2px; 
+    background-color: rgba(242, 242, 242, 0.9);
+    -webkit-box-shadow: 0 2px 2px;
     box-shadow: 0 2px 2px;
-    
+
 }
 
 .sticky .main-nav {
@@ -255,16 +261,27 @@ header {
     font-weight: 600;
     margin: auto;
 }
-.sticky .logo {display: none;}
-.sticky .logo-black {display: block;}
-.sticky .about-nav-button {display: block;}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
+.sticky .about-nav-button {
+    display: block;
+}
+
 /* -----------------------------------------------------*/
 /*video*/
 /*------------------------------------------------------*/
 
-.section-aboutme{
+.section-aboutme {
     text-align: center;
 }
+
 .video {
     height: 400px;
     width: auto;
@@ -311,7 +328,7 @@ header {
 .btn-4:visited {
     background-color: #2980b9;
     margin: 10px auto;
-    
+
 }
 
 .btn-4:hover,
@@ -321,7 +338,7 @@ header {
 
 .section-projects {
     display: block;
-    text-align: center; 
+    text-align: center;
     background-color: #e5e5e5;
     padding: 50px 0;
 }
@@ -333,7 +350,7 @@ header {
 
 .skill-block {
     display: block;
-    margin:100px auto;
+    margin: 100px auto;
 }
 
 .skill-step {
@@ -342,7 +359,7 @@ header {
     height: 80px;
     width: 60%;
     margin: auto;
-    
+
 }
 
 .skill-step div {
@@ -355,8 +372,9 @@ header {
     padding: 10px 0;
     color: #fff;
     background-color: #2980b9;
-    
+
 }
+
 .skill-bar {
     float: right;
     width: 70%;
@@ -364,27 +382,27 @@ header {
     margin-left: 30px;
     -webkit-appearance: none;
     vertical-align: middle;
-    
+
 }
 
 progress[value]::-webkit-progress-bar {
-  background-color: #eee;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    background-color: #eee;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
 progress[value]::-webkit-progress-value {
-  background-image:
-	   -webkit-linear-gradient(-45deg, 
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -webkit-linear-gradient(top, 
-	                           rgba(255, 255, 255, .25), 
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #2980b9, #00ff27);
+    background-image:
+        -webkit-linear-gradient(-45deg,
+            transparent 33%, rgba(0, 0, 0, .1) 33%,
+            rgba(0, 0, 0, .1) 66%, transparent 66%),
+        -webkit-linear-gradient(top,
+            rgba(255, 255, 255, .25),
+            rgba(0, 0, 0, .25)),
+        -webkit-linear-gradient(left, #2980b9, #00ff27);
 
-    border-radius: 2px; 
+    border-radius: 2px;
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
@@ -405,17 +423,20 @@ progress[value]::-webkit-progress-value {
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
     background-position: top;
-    
+
 }
-.contact h3{
+
+.contact h3 {
     padding-top: 0;
 }
+
 .contact-form {
     display: block;
     text-align: center;
     width: 60%;
     margin: 260px auto;
 }
+
 input,
 textarea {
     display: inline-block;
@@ -423,7 +444,7 @@ textarea {
     padding: 7px;
     border-radius: 3px;
     border-color: transparent;
-    background: #404040; 
+    background: #404040;
     margin: 5px auto;
     color: #2980b9;
 }
@@ -453,20 +474,23 @@ textarea {
     border: 2px solid #2980b9;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
-    
+
 }
+
 #popUpyes:hover,
 #popUpyes:active {
     background-color: #2980b9;
 }
 
-*:focus{outline: none;}
+*:focus {
+    outline: none;
+}
 
 /* -----------------------------------------------------*/
 /*footer*/
 /*------------------------------------------------------*/
 
-footer{
+footer {
     background-color: #222222;
     color: #f2f2f2;
 }
@@ -489,8 +513,9 @@ footer{
     display: inline-block;
     margin-right: 20px;
     text-decoration: none;
-    color: #f2f2f2;  
+    color: #f2f2f2;
 }
+
 .nav-footer li a,
 .home-button {
     color: #f2f2f2;
@@ -500,7 +525,7 @@ footer{
 .nav-footer li:first-child,
 .social-links li:last-child {
     margin: 0;
-    
+
 }
 
 .last-line {
@@ -511,11 +536,12 @@ footer{
     margin-bottom: 20px;
     color: #6a6a6a
 }
+
 .mailadress {
     display: block;
     color: #2980b9;
     float: right;
-    margin-bottom: 20px;
+    margin: 0 0 20px 5px;
 }
 
 .mail-icon-bottem {
@@ -548,7 +574,7 @@ footer{
     color: #2980b9;
 }
 
-.linkedin-button:hover, 
+.linkedin-button:hover,
 .linkedin-button:active {
     color: #0072b1;
 }
@@ -562,6 +588,11 @@ footer{
 .github-button:active {
     color: #c9510c;
 }
+
+.footer-email {
+    display: flex;
+}
+
 .done {
     display: inline-block;
 }

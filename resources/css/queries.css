@@ -1,4 +1,3 @@
-
 /*Big tablet to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
 
@@ -6,16 +5,17 @@
         margin-right: auto;
         padding: 0 2%;
     }
-    
-    .hero-text-box{
+
+    .hero-text-box {
         width: 100%;
         padding: 0 2%;
     }
-    .logo{
+
+    .logo {
         margin-left: auto;
         padding: 0 2%;
     }
-    
+
 }
 
 
@@ -24,23 +24,31 @@
 
 /*Small tablet to big tablet: from 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
+
     .in-progress1,
     .in-progress2,
     .in-progress3,
     .in-progress4 {
         width: 100%;
     }
-    .contact h3{
+
+    .contact h3 {
         margin-top: -20px;
     }
+
     .nav-footer,
     .social-links {
         padding: 0 2%;
+        text-align: center;
+        display: block;
+        width: 100%;
     }
+
     .last-line {
         width: 32%;
     }
-    .section-projects{
+
+    .section-projects {
         padding: 0 2%
     }
 }
@@ -59,106 +67,115 @@
 
 /*Small phones: from 0 to 480px*/
 @media only screen and (max-width: 480px) {
-    .video{
-        width: 100%; 
+    .video {
+        width: 100%;
     }
-    .port-afb{
+
+    .port-afb {
         width: 100%
     }
+
     .col {
         width: 100%;
     }
+
     .in-progress1,
     .in-progress2,
     .in-progress3,
     .in-progress4 {
         width: 80%;
     }
-    .skill-step{
+
+    .skill-step {
         width: 100%;
         padding: 0 5%;
     }
+
     .last-line {
         width: 65%;
     }
-    
+
     .sticky,
-    .main-nav{
+    .main-nav {
         font-size: 90%;
     }
+
     .main-nav li {
         margin-left: 10px;
     }
+
     .logo-black,
-    .logo{
+    .logo {
         height: 60px;
     }
+
     .sticky .main-nav {
         margin-top: 25px;
     }
+
     .sticky {
         padding-left: 2%;
         padding-right: 2%;
     }
-    
+
     .section-projects {
         padding: 90px 0;
         height: auto;
     }
-    
+
     .port-afb {
         padding: 0 5%;
     }
-    .section-skills{
+
+    .section-skills {
         padding: 90px 0;
         height: auto;
 
-    }
-    .contact {
-        padding: 90px 0;
-/*        height: auto;*/
-        
     }
 
     .skill-step {
         height: 80px;
-        width: 90%; 
+        width: 90%;
     }
+
     .skill-step div {
         height: auto;
         width: 90px;
         padding: 10px 0;
-        
+
     }
+
     .skill-bar {
         width: 70%;
         margin-left: 0;
     }
-    #popUpyes{
+
+    #popUpyes {
         width: 100px;
     }
-    .section-skills{
-        height: 80vh;
-        
-    }
+
     .contact-form {
         width: 80%;
         margin: auto;
         margin-top: 120px;
     }
-    footer{
+
+    footer {
         font-size: 85%;
-            
+
     }
+
     .nav-footer li,
     .social-links li,
     .home-button {
         margin-right: 15px;
     }
+
     .home-button {
         padding-left: 5px;
     }
-    .github-button{
+
+    .github-button {
         padding-right: 5px;
     }
 
