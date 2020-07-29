@@ -33,7 +33,7 @@ html {
     margin: 0 auto;
 }
 section {
-    padding: 90px 0;
+    /* padding: 90px 0; */
 /*    height: 100vh;*/
 
 }
@@ -90,6 +90,7 @@ h3:after {
 }
 
 h3 {
+    padding-top: 90px;
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
@@ -322,8 +323,7 @@ header {
     display: block;
     text-align: center; 
     background-color: #e5e5e5;
-    height: 100vh;
-    
+    padding: 50px 0;
 }
 
 /* -----------------------------------------------------*/
@@ -388,6 +388,14 @@ progress[value]::-webkit-progress-value {
     background-size: 35px 20px, 100% 100%, 100% 100%;
 }
 
+.section-skills {
+    padding-top: 50px;
+}
+
+.section-aboutme {
+    padding-top: 50px;
+}
+
 
 /* -----------------------------------------------------*/
 /*Contact*/
@@ -397,11 +405,10 @@ progress[value]::-webkit-progress-value {
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
     background-position: top;
-    height: 100vh;
     
 }
 .contact h3{
-    padding-top: 20px
+    padding-top: 0;
 }
 .contact-form {
     display: block;
