@@ -13,24 +13,23 @@
         
     </head>
     <body>
-        <header>
+        <header class="js--section-home">
             <nav>
                 <div class="row">
-                    <a href="index.html"><img src="resources/css/img/logo_vt_white1.png" alt="VT logo" class="logo"></a>
-                    <a href="index.html"><img src="resources/css/img/logo_vt_black1.png" alt="VT logo" class="logo-black"></a>
+                    <a href="index.html"><img src="resources/css/img/logo_vt_white1.png" alt="VT logo" class="logo scroll-to" data-scroll="home"></a>
+                    <a href="index.html"><img src="resources/css/img/logo_vt_black1.png" alt="VT logo" class="logo-black scroll-to" data-scroll="home"></a>
                     <ul class="main-nav">
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#about-me" class="about-nav-button">About</a></li>
-                        
+                        <li><a href="#projects" class="scroll-to" data-scroll="projects">Projects</a></li>
+                        <li><a href="#skills" class="scroll-to" data-scroll="skills">Skills</a></li>
+                        <li><a href="#contact" class="scroll-to" data-scroll="contact">Contact</a></li>
+                        <li><a href="#about-me" class="about-nav-button scroll-to" data-scroll="aboutme">About</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="hero-text-box">
                 <h1>Hellow, <br>my name is <br>Thierry Vleminckx.</h1>
                 <h2>Software Developer</h2>
-                <a class="btn btn-full js--scroll-to-aboutme" href="#">About Me</a>
+                <a class="btn btn-full js--scroll-to-aboutme scroll-to" data-scroll="about" href="#">About Me</a>
                 
             </div>
         </header>
@@ -81,7 +80,7 @@
                 </div>
         
             </section>
-            <section class="section-skills" id="skills">
+            <section class="section-skills js--section-skills" id="skills">
                 <div class="row">
                     <h3>My skills</h3>
                 </div>
@@ -106,7 +105,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contact" id="contact">
+            <section class="section-contact contact  js--section-contact" id="contact">
                 <div class="row">
                     <h3>Contact</h3>
                 </div>
@@ -137,10 +136,10 @@
             <div class="row">
                 <div class="col span-1-of-2">
                     <ul class="nav-footer">
-                        <a href="index.html" class="home-button"><ion-icon name="home-outline"></ion-icon></a>
-                        <li><a href="#about-me">About Me</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#skills">Skills</a></li>
+                        <a href="index.html" class="home-button scroll-to" data-scroll="home"><ion-icon name="home-outline"></ion-icon></a>
+                        <li><a href="#about-me" class="scroll-to" data-scroll="aboutme">About Me</a></li>
+                        <li><a href="#projects" class="scroll-to" data-scroll="projects">Projects</a></li>
+                        <li><a href="#skills" class="scroll-to" data-scroll="skills">Skills</a></li>
                     </ul>
                 </div>
                 <div class="col span-1-of-2">
@@ -171,4 +170,3 @@
 
 <!--
 thierryvleminckx92@gmail.com
--->

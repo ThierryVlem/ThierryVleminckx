@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     
     /* For the sticky nav */
     $('.js--section-aboutme').waypoint(function(direction){
@@ -14,13 +14,8 @@ $(document).ready(function() {
     
     
     /* Scroll down buttons */
-    $('.js--scroll-to-aboutme').click(function() {
-        $('html, body').animate({scrollTop: $('.js--section-aboutme').offset().top}, 1000);
+    $('.scroll-to').click(function() {
+        var scrollTo = $(this).data('scroll');
+        $('html, body').animate({scrollTop: $('.js--section-' + scrollTo).offset().top}, 1000);
     });
-    
-    
-    
-    
-    
-    
 });
