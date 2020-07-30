@@ -278,9 +278,7 @@ header {
 /*video*/
 /*------------------------------------------------------*/
 
-.section-aboutme {
-    text-align: center;
-}
+
 
 .video {
     height: 400px;
@@ -288,7 +286,17 @@ header {
     margin-top: 50px;
     text-align: center;
 }
+/* -----------------------------------------------------*/
+/*about me*/
+/*------------------------------------------------------*/
+.section-aboutme {
+    text-align: center;
+}
 
+.section-aboutme {
+    padding: 50px 0;
+    
+}
 /* -----------------------------------------------------*/
 /*my projects*/
 /*------------------------------------------------------*/
@@ -407,27 +415,26 @@ progress[value]::-webkit-progress-value {
 }
 
 .section-skills {
-    padding-top: 50px;
+    padding:50px 0;
 }
 
-.section-aboutme {
-    padding-top: 50px;
-}
+
 
 
 /* -----------------------------------------------------*/
 /*Contact*/
 /*------------------------------------------------------*/
+.section-contact{padding:50px 0}
 .contact {
     display: block;
     background: url(img/achtergrond%20contact.png);
     background-size: cover;
-    background-position: top;
+    background-position:top;
 
 }
 
 .contact h3 {
-    padding-top: 0;
+    padding-top: 90;
 }
 
 .contact-form {
@@ -484,6 +491,10 @@ textarea {
 
 *:focus {
     outline: none;
+}
+
+.whitespace {
+    height: 90px;
 }
 
 /* -----------------------------------------------------*/
@@ -590,7 +601,10 @@ footer {
 }
 
 .footer-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+   
 }
 
 .done {
