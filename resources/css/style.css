@@ -556,6 +556,7 @@ footer {
     color: #2980b9;
 /*    float: right;*/
     margin: 0 0 20px 5px;
+    text-decoration: none;
 }
 
 .mail-icon-bottem {
@@ -604,13 +605,14 @@ footer {
 }
 
 .footer-email {
-
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+   
     
 }
 
