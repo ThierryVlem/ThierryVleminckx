@@ -16,9 +16,7 @@
         padding: 0 2%;
     }
     
-    .footer-email {
-        text-align: center;
-        width: auto;    }
+    
     .nav-footer,
     .social-links{
         padding: 0 2%;
@@ -53,9 +51,6 @@
         width: 100%;
     }
 
-    .last-line {
-        width: 32%;
-    }
 
     .section-projects {
         padding: 0 2%
@@ -64,26 +59,15 @@
     .social-links {
         width: 50%;
     }
-    .last-line{
-        width: 80%;
-        text-align: center;
-    }
-    .footer-email {
-        display: flex;
-        font-size: 100%;
-        text-align: center;
-        margin: 0 auto;
-        width: 50%;
-    }
+    
+    
 }
 
 
 
 /*Small phones to small tablets: from 481px to 767px*/
 @media only screen and (max-width: 767px) {
-    .last-line {
-        width: 42%
-    }
+    
     .social-links {
     width: 50%;
     }
@@ -207,12 +191,6 @@
         padding-right: 5px;
     }
     
-    .footer-email {
-        display: inline-block;
-        font-size: 95%;
-        margin: 0 auto;
-        width: auto;
-    }
     .social-links {
         width: 100%;
     }
@@ -227,6 +205,7 @@
     
     .sticky,
     .main-nav {
+        
         font-size: 80%;
     }
 }
