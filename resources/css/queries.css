@@ -16,6 +16,14 @@
         padding: 0 2%;
     }
     
+    .footer-email {
+        text-align: center;
+        width: auto;    }
+    .nav-footer,
+    .social-links{
+        padding: 0 2%;
+            
+    }
 
 }
 
@@ -52,6 +60,21 @@
     .section-projects {
         padding: 0 2%
     }
+    
+    .social-links {
+        width: 50%;
+    }
+    .last-line{
+        width: 80%;
+        text-align: center;
+    }
+    .footer-email {
+        display: flex;
+        font-size: 100%;
+        text-align: center;
+        margin: 0 auto;
+        width: 50%;
+    }
 }
 
 
@@ -69,7 +92,7 @@
 
 
 
-/*Small phones: from 0 to 480px*/
+/*Small phones: from 375 to 480px*/
 @media only screen and (max-width: 480px) {
     .video {
         width: 100%;
@@ -96,7 +119,8 @@
     }
 
     .last-line {
-        width: 65%;
+        width: 80%;
+        text-align: center;
     }
 
     .sticky,
@@ -150,7 +174,7 @@
     }
 
     .skill-bar {
-        width: 65%;
+        width: 60%;
         margin-left: 0;
     }
 
@@ -184,10 +208,25 @@
     }
     
     .footer-email {
+        display: inline-block;
         font-size: 95%;
-        margin: auto;
+        margin: 0 auto;
+        width: auto;
     }
     .social-links {
-    width: 100%;
+        width: 100%;
+    }
+}
+
+/*Small phones: from 0 to 374px*/
+@media only screen and (max-width: 374px) {
+    .logo-black,
+    .logo {
+        height: 50px;
+    }
+    
+    .sticky,
+    .main-nav {
+        font-size: 80%;
     }
 }

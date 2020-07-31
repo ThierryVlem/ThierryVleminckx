@@ -273,6 +273,10 @@ header {
 .sticky .about-nav-button {
     display: block;
 }
+.dropbtn {
+/*    display: none;*/
+    
+}
 
 /* -----------------------------------------------------*/
 /*video*/
@@ -542,23 +546,22 @@ footer {
 .last-line {
     display: block;
     text-align: center;
-    width: 28%;
+    width: 80%;
     margin: 100px auto;
     margin-bottom: 20px;
     color: #6a6a6a
 }
 
 .mailadress {
-    display: block;
     color: #2980b9;
-    float: right;
+/*    float: right;*/
     margin: 0 0 20px 5px;
 }
 
 .mail-icon-bottem {
     color: #2980b9;
-    float: left;
-    font-size: 120%
+/*    float: left;*/
+    font-size: 120%;
 }
 
 .linkedin-button:link,
@@ -601,10 +604,12 @@ footer {
 }
 
 .footer-email {
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-   
+    justify-content: center;
+    
 }
 
 .done {
