@@ -318,8 +318,11 @@ header {
 .in-progress4 {
     display: block;
     margin: auto;
-    -webkit-filter: brightness(30%);
-    filter: brightness(30%)
+    max-height: 214px;
+    max-width: 235px;
+    height: auto;
+    width: auto;
+    
 }
 
 
