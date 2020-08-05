@@ -318,6 +318,7 @@ header {
 .in-progress4 {
     display: block;
     margin: auto;
+    filter: brightness(30%)
 }
 
 
