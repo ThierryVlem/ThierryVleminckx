@@ -273,9 +273,10 @@ header {
 .sticky .about-nav-button {
     display: block;
 }
+
 .dropbtn {
-/*    display: none;*/
-    
+    /*    display: none;*/
+
 }
 
 /* -----------------------------------------------------*/
@@ -290,6 +291,7 @@ header {
     margin-top: 50px;
     text-align: center;
 }
+
 /* -----------------------------------------------------*/
 /*about me*/
 /*------------------------------------------------------*/
@@ -299,8 +301,9 @@ header {
 
 .section-aboutme {
     padding: 50px 0;
-    
+
 }
+
 /* -----------------------------------------------------*/
 /*my projects*/
 /*------------------------------------------------------*/
@@ -322,7 +325,7 @@ header {
     max-width: 235px;
     height: auto;
     width: auto;
-    
+
 }
 
 
@@ -424,7 +427,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .section-skills {
-    padding:50px 0;
+    padding: 50px 0;
 }
 
 
@@ -433,12 +436,15 @@ progress[value]::-webkit-progress-value {
 /* -----------------------------------------------------*/
 /*Contact*/
 /*------------------------------------------------------*/
-.section-contact{padding:50px 0}
+.section-contact {
+    padding: 50px 0
+}
+
 .contact {
     display: block;
     background: url(img/achtergrond%20contact-min.png);
     background-size: cover;
-    background-position:top;
+    background-position: top;
 
 }
 
@@ -559,14 +565,14 @@ footer {
 
 .mailadress {
     color: #2980b9;
-/*    float: right;*/
+    /*    float: right;*/
     margin: 0 0 20px 5px;
     text-decoration: none;
 }
 
 .mail-icon-bottem {
     color: #2980b9;
-/*    float: left;*/
+    /*    float: left;*/
     font-size: 120%;
 }
 
@@ -610,15 +616,15 @@ footer {
 }
 
 .footer-email {
-    
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-   
-    
+
+
 }
 
 .done {
