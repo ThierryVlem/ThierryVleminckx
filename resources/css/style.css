@@ -85,13 +85,19 @@ h3:after {
 }
 
 h3 {
-    padding-top: 90px;
+    padding-top: 20px;
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
     padding-bottom: 40px;
     color: #292929;
     text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+    h3 {
+        padding-top: 90px;
+    }
 }
 
 h4 {
@@ -344,10 +350,14 @@ header {
 /* Video */
 /*------------------------------------------------------*/
 .video {
-    height: 400px;
     width: auto;
     margin-top: 50px;
     text-align: center;
+}
+@media (min-width: 1024px) {
+    .video {
+        height: 400px;
+    }
 }
 
 /* -----------------------------------------------------*/
@@ -373,20 +383,14 @@ header {
     margin: auto;
 }
 
-.in-progress1,
-.in-progress2,
-.in-progress3,
-.in-progress4 {
+.in-progress {
     display: block;
     margin: auto;
     max-height: 214px;
-    max-width: 235px;
+    max-width: 300px;
     height: auto;
     width: auto;
-
 }
-
-
 
 .btn-4:link,
 .btn-4:visited {
@@ -674,17 +678,32 @@ footer {
 }
 
 .footer-email {
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-
-
 }
 
 .done {
     display: inline-block;
+}
+
+/* Flexbox Examples */
+.grid-example {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    flex-direction: column;
 }
