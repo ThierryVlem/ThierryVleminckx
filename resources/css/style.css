@@ -26,6 +26,8 @@ html {
     margin: 0 auto;
 }
 
+#header {}
+
 section {
     /* padding: 90px 0; */
     /*    height: 100vh;*/
@@ -290,7 +292,12 @@ header {
     margin-left: auto;
     padding: 0 6% 0 2%;
     color: #333;
-    margin-top: 40px;
+    margin-top: 25px;
+}
+
+.mobile-nav-icon {
+    margin-top: 4px;
+    margin-left: 4px;
 }
 
 .off-canvas-full-screen-nav-wrapper {
