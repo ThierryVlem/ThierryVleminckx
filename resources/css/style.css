@@ -338,6 +338,11 @@ header {
     font-size: 30px;
 }
 
+.off-canvas-full-screen-nav li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
 .off-canvas-full-screen-nav li a {
     color: white;
     text-decoration: none;
